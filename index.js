@@ -237,17 +237,17 @@ console.log('***************TASK 2*******************')
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
 console.log('***************TASK 3*******************')
-//   function getArtistByIndex(artists, id){
+  function getArtistByIndex(artists, id){
   
-//   for(let i = 0; i < artists.length -1; i++){
-//     let newArr = [];
-//     if(artists[i].id = 7){
-//       newArr.push(artists[i].name);
-//     return `The artist at index ${this.id} is ${this.name}`;
-//   }
-//   }  
-// }
-// console.log(getArtistByIndex(artists))
+  for(let i = 0; i < artists.length -1; i++){
+    let newArr = [];
+    if(artists[i].id = 7){
+      newArr.push(artists[i].name);
+    return `The artist at index ${this.id} is ${this.name}`;
+  }
+  }  
+}
+console.log(getArtistByIndex(artists))
   /**
 
 
@@ -280,11 +280,13 @@ console.log(get20s(artists))
  * Note that sucessfully invoking this function multiple times without refreshing your browser will continuously remove artists from the array until there are none left. If you refresh your browser, the data will reset.  
 */
 console.log('***************TASK 5*******************')
-function removeArtist(arr, index){
-    
+function removeArtist(artists, id){
+  for(let i = 0; i < artists.length -1; i++){
+    if
+    artists.id; (7, 1)
   }
-  
- 
+}
+  console.log(removeArtist(7, 1))
 
 /**
 /* Task 6: Create a function called `addArtist` that can accept an object of information and add it to the artists array. Then, add a 21st artist to the array (you) with custom information!👩‍🎨👨‍🎨
