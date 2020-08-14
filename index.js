@@ -207,6 +207,15 @@ const artists = [
 
 (1) Name of the first artist (0th index) in the array
 (2) Bio of the third artist (2nd index) in the array */
+console.log('***************TASK 1*******************')
+name: function(){
+  return `${this.id} is ${this.name} who lived between ${this.years}, worked in ${this.genre}, whos of ${this.nationality} descent.  Their information is ${this.bio}.  More can be learned at ${this.Wikipedia} They are credited with many ${this.paintings} paintings.`
+}
+
+console.log(artists['id','name']);
+console.log(artists.2.name)
+
+
 
 
 
