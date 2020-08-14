@@ -237,12 +237,12 @@ console.log('***************TASK 2*******************')
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
 console.log('***************TASK 3*******************')
-function getArtistByIndex(artists, id) {
+// function getArtistByIndex(artists, id) {
     
     
 
-  }
-  console.log(getArtistByIndex(artists, id[7]))
+//   }
+//   console.log(getArtistByIndex(artists, id[7]))
   /**
 
 
@@ -301,12 +301,19 @@ and returns an array with names of artists who painted more than 100 paintings.
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ..."Albrecht Dürer"]*/
 console.log('***************TASK 7*******************')
 
-function lotsOfArt(/* Code here */){
+function lotsOfArt(artists){
+  let newArr = [];
+  for(let i = 0; i < artists.length -1; i++){
+    if(artists[i].paintings > 100){
+      newArr.push(artists[i].name)
 
-  /* Code here */
+    }
+  }
+
+  return newArr 
 
 }
-
+  console.log(lotsOfArt(artists))
 
 
 // 🎨🎨 STRETCH 🎨🎨//
