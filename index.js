@@ -208,21 +208,34 @@ const artists = [
 (1) Name of the first artist (0th index) in the array
 (2) Bio of the third artist (2nd index) in the array */
 console.log('***************TASK 1*******************')
-name: function(){
-  return `${this.id} is ${this.name} who lived between ${this.years}, worked in ${this.genre}, whos of ${this.nationality} descent.  Their information is ${this.bio}.  More can be learned at ${this.Wikipedia} They are credited with many ${this.paintings} paintings.`
+'name'; function fiftyGreatestArtists(artisits, index, name){
+artists[index].name;
+
+  return `${this.id} is ${this.name} who lived between ${this.years}, worked in ${this.genre}, whos of ${this.nationality} descent.  Their information is ${this.bio}.  More can be learned at ${this.Wikipedia} They are credited with ${this.paintings} paintings.`
 }
 
-console.log(artists['id','name']);
-console.log(artists.2.name)
+console.log(fiftyGreatestArtists(artists.name[id[0],name]));
+
+'bio'; function fiftyGreatestArtists(artisits, index, bio){
+  artists[index].bio;
+  
+    return `${this.id} is ${this.name} who lived between ${this.years}, worked in ${this.genre}, whos of ${this.nationality} descent.  Their information is ${this.bio}.  More can be learned at ${this.Wikipedia} They are credited with ${this.paintings} paintings.`
+  }
+
+console.log(fiftyGreatestArtists(artists.name['id'[2], 'bio']));
 
 
 
 
 
 /* Task 2: There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
+console.log('***************TASK 2*******************')
 
-
-
+function changeNmae(artists, index, name){
+  artists[8].name=name;
+  return artists;
+}
+console.log(changeName(name, 8, 'Vincent Van Gogh'));
 /* Task 3: Create a function called `getArtistByIndex` that takes two arguments:
  *     (1) artists array
  *     (2) a number which is the desired index in the array.
@@ -231,6 +244,7 @@ console.log(artists.2.name)
  * For example, if getArtistByIndex is invoked with the artists dataset and the number 0,
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
+console.log('***************TASK 3*******************')
 function getArtistByIndex(array, index) {
     /* code here */
   }
@@ -239,7 +253,7 @@ function getArtistByIndex(array, index) {
 
 
 /* Task 4: Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born in and died in 20th century (1900-2000) example born in 1901 and died in 1959 - included / born in 1889 and died in 1925 not included - should return ["Salvador Dali", "Frida Kahlo"]*/
-
+console.log('***************TASK 4*******************')
 function get20s(/* Code here */){
 
   /* Code here */
@@ -257,6 +271,7 @@ function get20s(/* Code here */){
  * 
  * Note that sucessfully invoking this function multiple times without refreshing your browser will continuously remove artists from the array until there are none left. If you refresh your browser, the data will reset.  
 */
+console.log('***************TASK 5*******************')
 function removeArtist(/*code here*/) {
     /* code here */
   }
@@ -275,6 +290,7 @@ nationality: Your Nationality Here
 bio: Add 1-2 sentences (or use lorem ipsum) 
 
 At the end, this function should return the new array with information added"*/
+console.log('***************TASK 6*******************')
 
 function addArtist(/* Code here */){
 
@@ -289,6 +305,7 @@ function addArtist(/* Code here */){
 and returns an array with names of artists who painted more than 100 paintings.
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ..."Albrecht Dürer"]*/
+console.log('***************TASK 7*******************')
 
 function lotsOfArt(/* Code here */){
 
