@@ -208,21 +208,11 @@ const artists = [
 (1) Name of the first artist (0th index) in the array
 (2) Bio of the third artist (2nd index) in the array */
 console.log('***************TASK 1*******************')
-'name'; function fiftyGreatestArtists(artisits, index, name){
-artists[index].name;
 
-  return `${this.id} is ${this.name} who lived between ${this.years}, worked in ${this.genre}, whos of ${this.nationality} descent.  Their information is ${this.bio}.  More can be learned at ${this.Wikipedia} They are credited with ${this.paintings} paintings.`
-}
+console.log(artists[0].name)
 
-console.log(fiftyGreatestArtists(artists.name[id[0],name]));
+console.log(artists[2].bio)
 
-'bio'; function fiftyGreatestArtists(artisits, index, bio){
-  artists[index].bio;
-  
-    return `${this.id} is ${this.name} who lived between ${this.years}, worked in ${this.genre}, whos of ${this.nationality} descent.  Their information is ${this.bio}.  More can be learned at ${this.Wikipedia} They are credited with ${this.paintings} paintings.`
-  }
-
-console.log(fiftyGreatestArtists(artists.name['id'[2], 'bio']));
 
 
 
@@ -231,8 +221,8 @@ console.log(fiftyGreatestArtists(artists.name['id'[2], 'bio']));
 /* Task 2: There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
 console.log('***************TASK 2*******************')
 
-function changeNmae(artists, index, name){
-  artists[8].name=name;
+function changeName(artists, index, name){
+  artists[index].name = name;
   return artists;
 }
 console.log(changeName(name, 8, 'Vincent Van Gogh'));
@@ -245,10 +235,12 @@ console.log(changeName(name, 8, 'Vincent Van Gogh'));
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
 console.log('***************TASK 3*******************')
-function getArtistByIndex(array, index) {
-    /* code here */
-  }
-  
+// function getArtistByIndex(array, index) {
+//     let array = artists;
+//     let index = 7;
+
+//   }
+//   console.log(getArtistByIndex(artists, id[7]))
   /**
 
 
