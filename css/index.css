@@ -136,10 +136,12 @@ button:hover{
 }
 @media(max-width:500px){
     .artist-container{
+        display: flex;
         flex-direction: column;
         font-size: 1.5rem
     }
     .artist{
+        display: flex;
         align-items: center;
     }
 }
